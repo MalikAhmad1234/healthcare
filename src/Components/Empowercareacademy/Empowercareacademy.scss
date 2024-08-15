@@ -1,0 +1,229 @@
+.empower-care-container .container .flex .academy-card:hover{
+    background: linear-gradient(90deg, #4eb3e8 0%, #71ba32 100%);
+}
+
+
+.empower-care-container {
+    .container {
+
+        max-width: 1250px !important;
+        background: #f4f4f4;
+        border-radius: 20px;
+        padding-inline: 100px;
+        display: block;
+
+        @media (max-width: 767.5px){
+            padding-inline: 10px;
+        }
+
+        .empowercare-wrapper {
+            padding: 90px 0px;
+
+            @media (max-width: 1200px) {
+                padding: 10px 0 120px;
+            }
+            @media (max-width: 992px) {
+                padding: 10px 0 80px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 10px 0 60px;
+            }
+
+        }
+
+        .flex {
+
+            .flex-cards-academpy {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .search-icon {
+                width: 60px;
+                height: 60px;
+                background: #F4F4F4;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .card-title h3 {
+                color: black;
+            }
+
+            button.learn-more {
+                background: white;
+                border: none;
+                padding: 12px 25px;
+                border-radius: 9px;
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+
+            .card-bottom-content {
+                color: white;
+                max-width: 1200px;
+                margin: 0 30px;
+                margin-top: 40px;
+
+                p{
+                    text-align: start;
+                }
+
+                li{
+                    text-align: start;
+                    text-transform: uppercase;
+                }
+            }
+
+            .accordian-open.academy-card {
+                background: linear-gradient(-135deg, #71ba32 0.00%, #4eb3e8 100.00%) !important;
+                h3{
+                    color: white !important;
+                }
+            }
+
+            .academy-card {
+                display: flex;
+                flex-direction: column;
+                background-color: #EBE0D3;
+                padding: 35px 10px;
+                border-radius: 16px;
+
+                @media (max-width: 767.5px){
+                    padding: 8px 10px;
+                    border-radius: 10px;
+                }
+            }
+
+            .accordian-open{
+                .card-bottom-content{
+                    display: block;
+                }
+            }
+
+            .card-bottom-content{
+                display: none;
+            }
+
+            .card-top-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-inline: 55px;
+
+                @media (max-width: 767px){
+                    margin-inline: 10px;
+                    flex-direction: column;
+                }
+
+                .card-content-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+
+                    @media (max-width: 767px){
+                        gap: 10px;
+                    }
+                }
+            }
+
+
+            .section-img img {
+                height: 370px !important;
+            }
+
+            .left-content{
+                text-align: center !important;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .sec-btns {
+                display: flex;
+                justify-content: center;
+            }
+
+            .center-content {
+                max-width: 800px;
+                margin-inline: auto;
+            }
+
+            span.meta {
+                font-size: 20px;
+                font-weight: bold;
+                font-style: normal;
+                text-align: center;
+                color: #4EB3E8;
+                margin-bottom: 7px;
+            }
+
+            p.description {
+                padding: 25px 0px;
+            }
+
+            h2.heading {
+                font-size: 49px;
+                font-weight: normal;
+                line-height: 51px;
+                font-style: normal;
+                text-align: center;
+                color: #000;
+                margin-bottom: 20px;
+                width: 800px;
+
+                @media (max-width: 767.5px){
+                    font-size: 32px;
+                    line-height: 40px;
+                    width: 100%;
+                }
+
+                span{
+                    background: linear-gradient(90deg, #71ba32 0.00%, #4eb3e8 100.00%);
+                    // background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-transform: uppercase;
+                    font-weight: bold;                }
+            }
+
+            button.learn-btn {
+                width: 400px;
+                height: 66px;
+                border-radius: 19px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(90deg, #4eb3e8 0.00%, #71ba32 100.00%);
+                // background: linear-gradient(-130deg, #71ba32 0%, #4eb3e8 100%);
+                border: none;
+                position: relative;
+                margin-top: 30px;
+
+                span{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-style: normal;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                img {
+                    position: absolute;
+                    top: 25px;
+                    right: 20px;
+                    height: 18px;
+                    width: 18px;
+                }
+            }
+
+            .center-heading {
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,235 @@
+.staffingprocess-sec {
+    margin-top: 70px;
+    background-image: url(../../Assets/bodybg2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-color: #EBE0D3;
+
+    .faciityOperations-wrapper {
+        width: 100%;
+        padding: 0% 3%;
+
+        .faciityOperations-container {
+            padding: 50px 0px;
+
+            .container {
+
+                .top-content {
+                    margin-bottom: 80px;
+                    margin-top: 40px;
+                    text-align: center;
+
+                    @media (max-width: 767.5px){
+                        margin-bottom: 35px;
+                    }
+                    p.description-sub-heading{
+                        font-size: 20px;
+                        font-weight: bold;
+                        line-height: 52px;
+                        font-style: normal;
+                        text-align: center;
+                        color: rgb(0, 0, 0);
+                    }
+                    h2.heading {
+                        font-size: 49px;
+                        font-weight: normal;
+                        line-height: 52px;
+                        font-style: normal;
+                        text-align: center;
+                        color: rgb(0, 0, 0);
+                        margin-bottom: 20px;
+
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+                        @media (max-width: 767.5px) {
+                            font-size: 35px;
+                            margin-bottom: 30px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                            line-height: 35px;
+                        }
+                        span {
+                            color: #000;
+                            font-weight: bold;
+                        }
+                    }
+                    p.description1{
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: center;
+                        color: white;
+                    }
+                    span {
+                        background: linear-gradient(90deg, #71ba32 0.00%, #4eb3e8 100.00%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+                .row {
+                    @media (max-width: 767.5px) {
+                        margin: 0;
+                        gap: 20px;
+                    }
+                    .col-lg-6  {
+
+                        .job-box {
+                            width: 100%;
+                            height: 430px;
+                            border-radius: 22px;
+                            background: #f4f4f4;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            padding: 60px 40px;
+                            gap: 16px;
+
+                            @media (max-width: 767.5px) {
+                                width: 100%;
+                                padding: 30px;
+                                height: max-content;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                            
+                            img {
+                                height: auto;
+                                width: auto;
+                            }
+                            
+
+                            h4.heading {
+                                font-size: 22px;
+                                font-weight: normal;
+                                line-height: 29px;
+                                font-style: normal;
+                                text-align: center;
+                                color: #000000;
+                            }
+                            p.description {
+                                font-size: 16px;
+                                font-weight: normal;
+                                line-height: 26px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #202020;
+                                text-align: center;
+                            }
+                            
+                        }
+                    } 
+                }
+                .staffing_box {
+
+                    width: 100%;
+                    border-radius: 22px;
+                    background: #f4f4f4;
+                    padding: 18px 0px;
+                    margin-bottom: 20px;
+
+                    p.description {
+                        font-size: 19px;
+                        padding: 0px 106px;
+
+                        @media (max-width: 769px){
+                            padding: 15px;
+                        }
+
+                    }
+
+                    .bottom-btns-row {
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        gap: 28px;
+                        margin: 40px 20px 10px;
+    
+                        @media (max-width: 550px) {
+                            flex-direction: column;
+                        }
+    
+                        a {
+                            width: 196px;
+                            height: 66px;
+                            border-radius: 19px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: unset;
+    
+                            @media (max-width: 992px) {
+                                width: max-content;
+                                height: max-content;
+                                padding: 15px 20px;
+                            }
+                            @media (max-width: 550px) {
+                                height: max-content;
+                                padding: 10px 10px;
+                                border-radius: 5px;
+                                height: 48px;
+                                width: 300px !important;
+                            }
+    
+                            span {
+                                font-size: 16px;
+                                font-weight: 500;
+                                font-style: normal;
+                                text-align: center;
+                                color: #000000;
+                            }
+                        }
+    
+                        a.signup-btn {
+                            background: #71ba32;
+                            background: linear-gradient(-130deg, 
+                            #71ba32 0.00%, 
+                            #4eb3e8 100.00%);
+                            border: none;
+    
+                            span {
+                                color: #fff;
+                            }
+                        }
+    
+                        a.learnmore-btn {
+    
+                            background: linear-gradient(-130deg, #4eb3e8 0.00%, #71ba32 100.00%);
+                            span {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+
+                    .start-box {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding-bottom: 20px;
+                        gap: 15px;
+
+                        @media (max-width: 992px ){
+                            flex-direction: column;
+                            padding: 15px;
+                        }
+                        
+                        b { font-size: 19px; }
+       
+                    } 
+                }
+            }
+        }
+    }
+}

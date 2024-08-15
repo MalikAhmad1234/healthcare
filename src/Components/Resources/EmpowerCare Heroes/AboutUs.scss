@@ -1,0 +1,64 @@
+.Aboutus-container {
+    
+  
+
+  .container {
+
+    .last-container{
+       
+        justify-content: center;
+        align-items: center;
+        display: flex;
+       
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    
+       @media (max-width:600px) {
+        padding: 10px;
+       }
+       
+        text-align: center;
+    h6{
+        color: #4eb3e8;
+    }
+     
+    
+      }
+   
+  
+
+  
+
+  
+  
+  .p-txt{
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    @media (max-width: 490px) { 
+     max-width: 100%;
+  }
+}
+.arrow_img{
+    transform: translateX(60%); 
+}
+.btn-wrapper{
+    margin-top: 60px;
+    
+    
+}
+.su-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    @media (max-width: 480px) { 
+     margin-left: unset;
+      justify-content: left;;
+      
+   }
+}
+}
+}

@@ -1,0 +1,176 @@
+.refferal_program_wrapper {
+    background-color: #EBE0D3;
+    margin-bottom: 50px;
+
+    .container {
+
+        .empowercare-wrapper {
+            padding: 0px 40px;
+            border-radius: 20px;
+
+            @media (max-width: 1200px) {
+                padding: 10px 0 120px;
+            }
+            @media (max-width: 992px) {
+                padding: 10px 0 80px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 10px 0 60px;
+            }
+
+            .row {
+                align-items: center;
+                justify-content: space-between;
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                }
+                .col-md-12 {
+                    .left-content {
+                        padding-right: 25px;
+
+                        .text-gradient{
+                            background: linear-gradient(84deg, 
+                            #e6632a 0.00%, 
+                            #ed7666 100.00%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+
+                        @media (max-width: 767.5px) {
+                            padding: 0px;
+                        }
+                        
+                        span.meta {
+                            display: block;
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: right;
+                            color: #4EB3E8;
+                            margin-bottom: 7px;
+                        }
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: right;
+                            color: #000;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+        
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+        
+                        }
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: right;
+                            color: #202020;
+                        }
+                        ul {
+                            padding-left: 18px;
+                            color: #4EB3E8;
+                            li {
+                                span {
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #202020;
+                                }
+                            }
+                        }
+
+                        .btns-flex{
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;
+                            gap: 20px;
+                            margin-top: 25px;
+
+                            a{
+                                display: inline-block;
+                                width: 180px;
+                                text-decoration: none;
+                                text-align: center;
+
+                                @media (max-width: 767px){
+                                    width: 140px;
+                                }
+                            }
+
+                            .btn_grad{
+                                padding-block: 10px;
+                                border-radius: 10px;
+                                border: 2px solid #ed7666;
+                                color: white;
+                                font-size: 16px;
+                                text-transform: uppercase;
+                                background: linear-gradient(-130deg, 
+                                #ed7666 0.00%, 
+                                #e6632a 100.00%);
+                            }
+
+                            .btn_transparent{
+                                border: 2px solid white;
+                                border-radius: 10px;
+                                padding-block: 10px;
+                                color: white;
+                                font-weight: 500;
+                            }
+
+                            .active-img {
+                                position: absolute;
+                                left: 193px;
+                                top: -20px;
+
+                                @media (max-width: 480px) {
+                                    left: 135px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .col-md-12{
+                    .right-content {
+
+                        // @media (max-width: 767.5px) {
+                        //     padding: 115px 0px 10px;
+                        // }
+                        .section-img {
+                            text-align: center;
+
+                            img {
+                                width: 100%;
+                                @media (max-width: 480px) {
+                                    width: 95%;
+                                    padding-bottom: 50px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

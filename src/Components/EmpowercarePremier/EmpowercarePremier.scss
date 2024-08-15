@@ -1,0 +1,289 @@
+.empowercarePremier-sec {
+    margin-top: 70px;
+    background-image: url(../../Assets/bodybg2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-color: #EBE0D3;
+
+    .empowercarePremier-wrapper {
+        width: 100%;
+        padding: 0% 3%;
+
+        .empowercarePremier-container {
+            background-color: #f4f4f4;
+            border-radius: 50px;
+            padding: 50px 0px;
+
+            .container {
+
+                .top-content {
+                    margin-bottom: 80px;
+                    margin-top: 40px;
+                    text-align: center;
+
+                    @media (max-width: 767.5px){
+                        margin-bottom: 35px;
+                    }
+                    p.description-sub-heading{
+                        font-size: 20px;
+                        font-weight: bold;
+                        line-height: 52px;
+                        font-style: normal;
+                        text-align: center;
+                        color: black;
+                    }
+                    h2.heading {
+                        font-size: 49px;
+                        font-weight: normal;
+                        line-height: 52px;
+                        font-style: normal;
+                        text-align: center;
+                        color: black;
+                        margin-bottom: 20px;
+
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+                        @media (max-width: 767.5px) {
+                            font-size: 35px;
+                            margin-bottom: 30px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                            line-height: 35px;
+                        }
+
+                        span {
+                        color: #000;
+                            
+                            font-weight: bold;
+                        }
+                    }
+                    p.description1{
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: center;
+                        color: white;
+                    }
+                    p.description1{
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 21px;
+                        font-style: normal;
+                        text-align: center;
+                        color: black;
+                        padding: 50px;
+                        @media (max-width:480px) {
+                            padding: unset;
+                        }
+                    }
+                    p.description2 {
+                        font-size: 19px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: center;
+                        color: black;
+                    }
+                }
+                .boxes-wrapper{
+                    padding: 50px;
+                    @media (max-width: 480.5px) {
+                    padding: unset;
+                    }
+                .row {
+                    @media (max-width: 767.5px) {
+                        margin: 0;
+                        gap: 20px;
+                    }
+                    .col-lg-6  {
+                           
+                        .job-box {
+                            width: 100%;
+                            height: 430px;
+                            border-radius: 22px;
+                            background: #f4f4f4;
+                            display: flex;
+                        border: 1px solid grey;
+                            flex-direction: column;
+                            padding: 60px 40px;
+                            gap: 16px;
+                            
+                            @media (max-width: 767.5px) {
+                                width: 100%;
+                                padding: 20px;
+                                height: max-content;
+                            }
+                            
+                            a{
+                                text-decoration: none;
+                                color: black;
+                            }
+                            
+
+                                img {
+                                    height: auto;
+                                    width: auto;
+                                }
+                            
+
+                            h4.heading {
+                                font-size: 22px;
+                                font-weight: normal;
+                                line-height: 29px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #000000;
+                            }
+                            p.description {
+                                font-size: 16px;
+                                font-weight: normal;
+                                line-height: 26px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #202020;
+                            }
+                            
+                        }
+                        
+                    
+
+                        .job-box.active {
+                            background: #71ba32;
+                        background: linear-gradient(-130deg, 
+                        #71ba32 0.00%, 
+                        #4eb3e8 100.00%);
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                margin-top: 5%;
+                            }
+                            
+                            h4.heading {
+                                color: white;
+                            }
+                            p.description {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    
+                }
+                 .start-box{
+                    width: 100%;
+                    
+                    border-radius: 22px;
+                    background: #f4f4f4;
+                
+                    padding: 18px;
+                    p{
+                        font-size: 19px;
+                    }        
+                 }
+                 .act-box{
+                    width: 100%;
+                    margin-top: 2%;       
+                    border-radius: 22px;
+                    background: #f4f4f4;
+                    border: 1px solid grey;
+                    padding: 25px;
+                    h3{
+                        font-weight: bold;
+                        font-size: 22px;
+                        line-height: 41px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                    .end-btn{
+                        float: right;
+                        margin-bottom: 10px;
+                    }
+                 } 
+                 .end-text{
+                    p{
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: bolder;
+                        color: #fff;
+                    }
+                }      
+                .bottom-btns-row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 28px;
+                    margin: 40px 20px 10px;
+
+                    @media (max-width: 550px) {
+                        flex-direction: column;
+                    }
+
+                    button {
+                        width: 196px;
+                        height: 66px;
+                        border-radius: 19px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: unset;
+
+                        @media (max-width: 992px) {
+                            width: max-content;
+                            height: max-content;
+                            padding: 15px 20px;
+                        }
+                        @media (max-width: 550px) {
+                            height: max-content;
+                            padding: 10px 10px;
+                            border-radius: 5px;
+                            height: 48px;
+                            width: 300px !important;
+                        }
+
+                        span {
+                            font-size: 16px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: center;
+                            color: #000000;
+                        }
+                    }
+
+                    button.signup-btn {
+                        background: #71ba32;
+                        background: linear-gradient(-130deg, 
+                        #71ba32 0.00%, 
+                        #4eb3e8 100.00%);
+                        border: none;
+
+                        span {
+                            color: #fff;
+                        }
+                    }
+
+                    button.learnmore-btn {
+                        border-color: #000000;
+                        border-width: 2px;
+                        border-style: solid;
+                        background-color: transparent;
+
+                        span {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+}

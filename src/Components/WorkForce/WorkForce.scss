@@ -1,0 +1,143 @@
+.work-force {
+
+    padding: 70px 0px;
+
+    .container {
+
+
+        .empowercare-wrapper {
+            padding: 100px;
+            border-radius: 50px;
+            background: radial-gradient(farthest-corner at 100% 0,#5c5e62 0,#0c0f14 100%);
+            @media (max-width: 480px) {
+                padding: 50px;
+            }
+
+
+            .row {
+                .left-content {
+                    padding-right: 100px;
+
+                    @media (max-width: 850px) {
+                        padding-right: unset;
+                    }
+
+                    .meta {
+                        color: #4EB3E8;
+                    }
+
+                    h2.heading {
+                        font-size: 41px;
+                        font-weight: normal;
+                        line-height: 51px;
+                        font-style: normal;
+                        text-align: left;
+                        color: white;
+                        margin-bottom: 20px;
+
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+
+                        @media (max-width: 767.5px) {
+                            font-size: 35px;
+                            margin-bottom: 30px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        @media (max-width: 575px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                            line-height: 35px;
+                        }
+
+                        span {
+                            background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+                    }
+
+                    ul li {
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: left;
+                        color: white;
+                    }
+
+                    .butns {
+                        display: flex;
+                        gap: 5px;
+
+                        a.learn-btn {
+                            background: transparent;
+                            color: white;
+                            text-decoration: none;
+                            padding: 18px 30px;
+                            border-radius: 19px;
+                            border: 1px solid white;
+                            border-color: #ffffff;
+                            margin-left: 5px;
+                            text-align: center;
+                        }
+
+                        @media (max-width:480px) {
+                            flex-direction: column;
+                        }
+                    }
+
+                    .sec-btns {
+                        position: relative;
+
+                        a.learn-btn {
+                            border: 1px solid;
+                            padding: 15px 25px;
+                            background: linear-gradient(90deg, #4eb3e8 0.00%, #71ba32 100.00%);
+                            ;
+                            border-radius: 20px;
+                            color: #ffffff;
+                            text-decoration: unset;
+                            position: absolute;
+                            top: 53px;
+
+                            @media (max-width: 992px) {
+                                width: max-content;
+                                height: max-content;
+                                padding: 15px 20px;
+                            }
+
+                            @media (max-width: 450px) {
+                                height: max-content;
+                                padding: 10px 10px;
+                                border-radius: 5px;
+                                height: 48px;
+                            }
+                        }
+                    }
+                }
+
+                .section-img {
+                    .img {
+                        width: 100%;
+
+                        @media (max-width: 480px) {
+                            width: 100%;
+                        }
+                    }
+
+                    @media (max-width: 992px) {
+                        padding-top: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,190 @@
+.sd-sec {
+    background-color: #EBE0D3;
+    margin-bottom: 80px;
+    .sd-container {
+        width: 100%;
+        padding: 0% 3%;
+        margin: auto;
+
+        .sd-wrapper {
+            padding: 140px 0;
+            border-radius: 50px;
+            background: radial-gradient(farthest-corner at 100% 0,#5c5e62 0,#0c0f14 100%);
+
+         .container{
+
+            .row {
+
+                .col-md-12 {
+                    .left-content {
+                        padding-right: 70px;
+                        padding: 20px;
+
+                        @media (max-width: 767.5px) {
+                            padding-right: unset;
+                        }
+
+                        @media (max-width: 480px) {
+                            padding-right: unset;
+                            padding: unset;
+                        }
+
+                        span.meta {
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: left;
+                            color: #4eb3e8;
+                            margin-bottom: 7px;
+                        }
+
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: left;
+                            color: white;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+
+                                br {
+                                    display: none;
+                                }
+                            }
+
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+
+                        p.description {
+                            p.description1{
+                                color: white;
+                            }
+                            ul {
+                                li {
+                                    font-size: 15px;
+                                    font-weight: normal;
+                                    line-height:35px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: white;
+                                }
+                            }
+
+                        }
+
+                        .sec-btns {
+                            display: flex;
+                            align-items: center;
+                            gap: 28px;
+
+                            a {
+                                width: 195px !important;
+                                height: 66px;
+                                border-radius: 19px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                @media (max-width: 992px) {
+                                    width: max-content;
+                                    height: max-content;
+                                    padding: 15px 20px;
+                                }
+
+                                @media (max-width: 450px) {
+                                    height: max-content;
+                                    padding: 10px 10px;
+                                    border-radius: 5px;
+                                    height: 48px;
+                                }
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    font-style: normal;
+                                    text-align: center;
+                                    color: #000000;
+                                }
+                            }
+
+                            .learn-btn {
+                                background: #71ba32;
+                                background: linear-gradient(-130deg,
+                                        #71ba32 0.00%,
+                                        #4eb3e8 100.00%);
+                                border: none;
+
+                                span {
+                                    color: #EBE0D3;
+                                }
+                            }
+
+                            .signup-btn {
+                                border-color: #ffffff;
+                                border-width: 2px;
+                                border-style: solid;
+                                
+                                span {
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+
+                    .right-content {
+
+                       .image-sec {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+    .choose-sec.black-bg {
+
+        .left-content {
+
+            .heading {
+                color: white !important;
+            }
+
+            .description {
+                color: white !important;
+            }
+        }
+    }
+
+    .choose-wrapper.black-bg {
+        margin-inline: 30px;
+
+        @media (max-width: 767.5px) {
+            margin-inline: 15px;
+            border-radius: 10px !important;
+        }
+    }
+}

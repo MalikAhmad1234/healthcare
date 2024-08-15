@@ -1,0 +1,179 @@
+.content_with_form {
+  background-color: #EBE0D3;
+  padding-top: 80px;
+
+  @media (max-width: 480px) {
+    padding-top: 50px;
+  }
+
+  .container {
+
+      .empowercare-wrapper {
+          padding: 10px 0 140px;
+
+          @media (max-width: 1200px) {
+              padding: 10px 0 120px;
+          }
+          @media (max-width: 992px) {
+              padding: 10px 0 80px;
+          }
+          @media (max-width: 767.5px) {
+              padding: 10px 0 60px;
+          }
+
+          .row {
+              align-items: center;
+              @media (max-width: 767.5px) {
+                  margin: 0;
+              }
+              .col-md-12 {
+                  .left-content {
+                      padding-right: 25px;
+
+                      @media (max-width: 767.5px) {
+                          padding: 0px;
+                      }
+                      
+                      span.meta {
+                          font-size: 20px;
+                          font-weight: normal;
+                          font-style: normal;
+                          text-align: left;
+                          color: #4EB3E8;
+                          margin-bottom: 7px;
+                      }
+                      h2.heading {
+                          font-size: 49px;
+                          font-weight: normal;
+                          line-height: 51px;
+                          font-style: normal;
+                          text-align: left;
+                          color: #000;
+                          margin-bottom: 20px;
+
+                          @media (max-width: 992px) {
+                              font-size: 40px;
+                          }
+                          @media (max-width: 767.5px) {
+                              font-size: 35px;
+                              margin-bottom: 30px;
+      
+                              br {
+                                  display: none;
+                              }
+                          }
+                          @media (max-width: 575px) {
+                              font-size: 30px;
+                              margin-bottom: 15px;
+                              line-height: 35px;
+                          }
+      
+                      }
+                      p.description {
+                          font-size: 16px;
+                          font-weight: normal;
+                          line-height: 26px;
+                          font-style: normal;
+                          text-align: left;
+                          color: #202020;
+                      }
+                      ul {
+                          padding-left: 18px;
+                          color: #4EB3E8;
+                          li {
+                              span {
+                                  font-size: 16px;
+                                  font-weight: normal;
+                                  line-height: 26px;
+                                  font-style: normal;
+                                  text-align: left;
+                                  color: #202020;
+                              }
+                          }
+                      }
+
+                      .priemer-cta{
+                          .active-img {
+                              position: absolute;
+                              left: 193px;
+                              top: -20px;
+
+                              @media (max-width: 480px) {
+                                  left: 135px;
+                              }
+                          }
+                      }
+                  }
+
+                  .right-content {
+
+                    position: relative;
+
+                      @media (max-width: 767.5px) {
+                          padding: 115px 0px 10px;
+                      }
+                        img.form-icon {
+                            position: absolute;
+                            position: absolute;
+                            right: -35px;
+                            top: -27px;
+
+                            @media (max-width: 767px) {
+                                right: -35px;
+                                top: 90px;
+                            }
+                            
+                            @media (max-width: 480px) {
+                                right: -23px;
+                                top: 90px;
+                            }
+                        }
+                      .form-wrapper {
+                          padding: 30px 20px;
+                          background: #f4f4f4;
+                          border-radius: 20px;
+                          height: 500px;
+                      }
+                      .contact_form {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        margin-top: 5%;
+
+                        .row-input { 
+                              display: flex;
+                              width: 100%;
+                              gap: 10px;
+
+                              .rounded-input {
+                                width: 100%;
+                              }
+                        }
+
+                        input, select  {
+                          border-color: #d5d5d5;
+                          border-width: 1px;
+                          border-style: solid;
+                          border-radius: 15px;
+                          background: #eeeeee;
+                          padding: 10px;
+                        }
+
+                        .contact-submit-btn {
+                          width: 65%;
+                          background: linear-gradient(-130deg, #ee8d80 0.00%, #e6632a 100.00%);
+                          color: #ffffff;
+                          text-decoration: none;
+                          padding: 18px 50px;
+                          border-radius: 19px;
+                          border: none;
+                          margin-top: 15px;
+                        }
+
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

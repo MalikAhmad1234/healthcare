@@ -1,0 +1,98 @@
+.general-nursing{
+    .container{
+        .wrapper{
+            padding: 50px;
+            @media (max-width:480px) {
+                padding: 10px;
+            }
+            @media (max-width:780px) {
+                padding: 15px;
+            }
+            border-radius: 50px;
+            background-color: #F4F4F4;
+            margin-bottom: 70px;
+            .top-content{
+                margin-top: 20px;
+                margin-bottom: 40px;
+            h2.heading{
+                text-align: center;
+                font-size: 46px;
+            }
+            }
+            .boxes{
+                margin-bottom: 50px;
+            .row{
+                .col-lg-3{
+                    .box1{
+                        margin-bottom: 30px;
+                        border-radius: 20px;
+                        background-color: #EBE0D4;
+                       
+                    .content{
+                        padding: 37px;
+                       
+                        li{
+                            font-weight: bold;
+                            
+                        }
+                        h5{
+                            font-weight: bold;
+                        }
+                        .white-heading{
+                            color: white;
+                        }
+                        .white-text{
+                            color: white;
+                        }
+                    //    .logoImg{
+                    //     margin-bottom: 5px;
+                    //    }
+                        
+                    }
+                    .image-container{
+                        top: -7px;
+                        position: relative;
+                        .border-img{
+                            position: absolute;
+                            
+                            right: 10px;
+                            z-index: 1;
+                        }
+                    }
+                }
+                .boxActive{
+                    margin-bottom: 30px;
+                    border-radius: 20px;
+                    background: #71ba32;
+                    background: linear-gradient(-134deg, #4eb3e8 0.00%,#71ba32 100.00%);
+                    .content{
+                        padding: 37px;
+                       
+                        
+                        h5{
+                            font-weight: bold;
+                        }
+                        .white-heading{
+                            color: white;
+                        }
+                        .white-text{
+                            color: white;
+                        }
+                    }
+                    .image-container{
+                        top: -7px;
+                        position: relative;
+                        .border-img{
+                            position: absolute;
+                            
+                            right: 10px;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+            }
+        }
+        }
+    }
+}

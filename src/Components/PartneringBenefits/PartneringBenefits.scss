@@ -1,0 +1,43 @@
+.benefits-div{
+
+    margin-top: 5%;
+
+    .container{
+
+        .top-content{
+            h2{
+                text-align: center;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            p{
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+        
+        .row{
+            padding-top: 30px;
+
+            .col-lg-3 {
+                padding-bottom: 15px;
+            
+                .content{
+                    height: 160px;
+                    padding: 30px 30px 0px;
+                    background-color: #F4F4F4;
+                    border-radius: 20px;
+
+                    @media (max-width: 480px )
+                    {
+                        height: 120px;    
+                    }
+
+                    h6{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

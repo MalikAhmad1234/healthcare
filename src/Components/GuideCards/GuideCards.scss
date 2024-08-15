@@ -1,0 +1,76 @@
+.guide-cards{
+.container{
+    .row{
+        .col-lg-6  {
+
+            .job-box {
+                width: 100%;
+                height: 500px;
+                border-radius: 22px;
+                background: #f4f4f4;
+                display: flex;
+            
+                flex-direction: column;
+                padding: 60px 40px;
+                gap: 16px;
+
+                @media (max-width: 767.5px) {
+                    width: 100%;
+                    padding: 30px;
+                    height: max-content;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                
+
+                    img {
+                        height: auto;
+                        width: auto;
+                    }
+                
+
+                h4.heading {
+                    font-size: 22px;
+                    font-weight: normal;
+                    line-height: 29px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #000000;
+                }
+                p.description {
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #202020;
+                }
+                
+            }
+            .job-box.active {
+                background: #71ba32;
+                background: linear-gradient(-130deg, 
+                #71ba32 0.00%, 
+                #4eb3e8 100.00%);
+                a{
+                    text-decoration: none;
+                    color: white;
+                    
+                }
+                
+                h4.heading {
+                    color: #fff;
+                }
+                p.description {
+                    color: #fff;
+                }
+                @media (max-width:480px) {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+}

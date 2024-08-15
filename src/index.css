@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+a {
+  text-decoration: unset !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn_gradient{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.btn.quick-btn{
+  background: linear-gradient(-130deg, #71ba32 0%, #4eb3e8 100%);
+  width: 196px;
+  height: 66px;
+  border-radius: 19px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+
+@media (max-width: 480px){
+  .btn.quick-btn{
+    width: 156px;
+    height: 50px;
+  }
+}
+
+span.text_grad_red {
+  background: linear-gradient(90deg, 
+  #e6632a 0.00%, 
+  #ee8d80 100.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+span.text_grad_green{
+  background: linear-gradient(-134deg, #4eb3e8 0.00%,#71ba32 100.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.priemer-cta{
+  position: relative;
+}
+.priemer-cta a{
+  position: absolute;
+  top: 30px;
+}
+
+.btn_cta a.btn_red{
+  background: #ee8d80;
+  background: linear-gradient(-130deg, 
+  #ee8d80 0.00%, 
+  #e6632a 100.00%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 50px;
+  border-radius: 19px;
+  text-align: center;
+}
+a.btn_red{
+  background: #ee8d80;
+  background: linear-gradient(-130deg, 
+  #ee8d80 0.00%, 
+  #e6632a 100.00%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 50px;
+  border-radius: 19px;
+  text-align: center;
+}
+a.learn_more{
+  background: transparent;
+  color:black;
+  text-decoration: none;
+  padding: 18px 30px;
+  border-radius: 19px;
+  border: 1px solid black;
+  margin-left: 5px;
+  text-align: center;
+}
+a.btn_green{
+  background: #71ba32;
+  background: linear-gradient(-134deg, #4eb3e8 0.00%,#71ba32 100.00%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 50px;
+  border-radius: 19px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  a.btn_red {
+    padding: 16px 24px;
+  }
+}
+
+.btn_cta {
+  display: flex;
+  gap: 10px;
+}
+
+.btn_cta a{
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn_facilities_grad {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.btn_facilities_grad a {
+  background: #ee8d80;
+  background: linear-gradient(-130deg, #71ba32 0%, #4eb3e8 100%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 50px;
+  border-radius: 19px;
+}
+
+/*======================================= SITE MEGA MENU ================================ */
+
+.MuiStack-root.css-9c36oh {
+  gap: 10px;
+}
+
+/* FIRST COLUMN */
+.MuiBox-root.css-bacvv6 {
+  padding-right: unset !important;
+}
+.MuiBox-root.css-582nrr {
+  padding-right: unset;
+  padding-left: 16px;
+}
+.MuiStack-root.css-5ykgu0 {
+  gap: 10px;
+  align-items: center;
+  margin-top: 8px !important;
+}
+.MuiStack-root img{
+  width: 20% !important;
+  height: 20% !important;
+}
+@media (max-width: 480px){
+  .MuiStack-root img{
+    width: 10% !important;
+    height: 10% !important;
+  }
+}
+.MuiBox-root {
+  margin-left: unset !important;
+}
+.MuiBox-root h4 {
+  font-size: 16px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+.MuiBox-root .box1-p {
+  margin-bottom: 5px !important;
+  font-size: 12px !important;
+}
+
+/* SECOND COLUMN */
+.MuiStack-root.css-cgwwkm {
+  margin-top: 20px !important;
+  align-items: center;
+  gap: 10px;
+}
+.MuiStack-root.css-cgwwkm img {
+  width: 40px !important;
+}
+.MuiStack-root.css-cgwwkm p {
+  margin-left: unset !important;
+}
+
+/* THIRD COLUMN */
+.MuiBox-root.css-o4vv92 {
+  padding: unset !important;
+}
+.MuiBox-root.css-o4vv92 .MuiStack-root.css-1dntwlv {
+  padding-top: 16px !important;
+}
+.MuiStack-root.css-1xfqjzd {
+  margin-top: unset !important;
+  /* margin-bottom: 15px; */
+  padding: unset !important;
+  align-items: center !important;
+}
+.MuiStack-root.css-1xfqjzd h6 {
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
+
+/* FORTH COLUMN */
+.MuiBox-root.css-91qs5s {
+  padding: unset !important;
+}
+.MuiBox-root.css-91qs5s .MuiStack-root.css-1dntwlv {
+  padding: 16px 10px 0px 0px !important;
+}
+
+/* ABOUT US DROPDOWN */
+.dropdown .dropdown-content .MuiBox-root.css-1ki9smg {
+  width: 60% !important;
+  padding: unset !important;
+}
+.dropdown .dropdown-content .MuiBox-root.css-1ki9smg .MuiStack-root.css-1dntwlv {
+  padding: 0px 16px !important;
+}
+.dropdown .dropdown-content .MuiBox-root.css-19yt5vl {
+  width: 40% !important;
+}
+.dropdown .dropdown-content .MuiBox-root.css-19yt5vl .MuiStack-root.css-381yf2 {
+  padding: 0px 16px !important;
+}
+
+/* Facilities Dropdown columns Widths */
+.dropdown-facilities .MuiStack-root.css-9c36oh .MuiBox-root.css-bacvv6 {
+  width: 40% !important;
+}
+.dropdown-facilities .MuiStack-root.css-9c36oh .MuiBox-root.css-n6tkbd {
+  width: 30% !important;
+}
+.dropdown-facilities .MuiStack-root.css-9c36oh .MuiBox-root.css-19yt5vl {
+  width: 30% !important;
+}
+.dropdown-facilities .MuiStack-root.css-9c36oh .MuiBox-root.css-19yt5vl .css-wz6c18 a {
+  margin-top: 10px !important;
+}

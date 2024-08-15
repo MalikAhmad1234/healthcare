@@ -1,0 +1,70 @@
+.how-to-become {
+    .container {
+        .how-to-become-wrapper {
+            padding: 20px;
+            @media (max-width:480px) {
+                padding: unset;
+            }
+            background: #71ba32;
+            background: linear-gradient(-130deg,
+                    #71ba32 0.00%,
+                    #4eb3e8 100.00%);
+            border-radius: 50px;
+            .top-content {
+                text-align: center;
+                padding: 50px;
+                @media (max-width:480px) {
+                            padding: unset;
+                           padding-top: 20px;
+                        }
+
+                h6.meta {
+                    color: white;
+                    font-size: 21px;
+                    line-height: 31px;
+                }
+
+                h2.heading {
+                    color: white;
+                    font-size: 46px;
+                    line-height: 51px;
+                    font-weight: bold;
+
+                    span.text_grad_black {
+                        color: black;
+                    }
+                }
+            }
+            .bottom-content{
+                padding: 20px;
+                .row{
+                  .col-lg-6{
+                    padding: 30px;
+                    @media (max-width:480px) {
+                        padding: 15px;
+                    }
+                    .img-sec{
+                        text-align: center;
+                    }
+                    .description{
+                        color: white;
+                        font-weight: bold;
+                        font-size: 19px;
+                        text-align: center;
+                        line-height: 31px;
+                        
+                    }
+                    .description2{
+                        color: white;
+                        text-align: center;
+                        line-height: 21px;
+                        @media (max-width:480px) {
+                            text-align: justify;
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}

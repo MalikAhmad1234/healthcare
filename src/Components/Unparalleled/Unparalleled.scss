@@ -1,0 +1,45 @@
+.unparalleled-sec {
+    @media (max-width:480px) {
+        padding-top: 50px;
+    }
+    .container {
+        .content {
+            justify-content: center;
+            align-items: center;
+       
+            text-align: center;
+           h2{
+            font-size: 46px;
+            line-height: 41px;
+            font-weight: bold;
+           }
+
+            h6 {
+                color: #4eb3e8;
+               
+            }
+            .p-txt{
+                max-width: 60%;
+                text-align: center;
+                margin: auto;
+                @media (max-width: 490px) { 
+                 max-width: 100%;
+              }
+            }
+
+        }
+        .arrow_img{
+            transform: translateX(45%); 
+        }
+        .btn-wrapper{
+            margin-top: 60px;
+        }
+        .su-btn{
+            display: flex;
+            justify-content: center;
+            @media (max-width: 490px) { 
+              margin-left: 15%;
+           }
+        }
+    }
+}

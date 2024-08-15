@@ -1,0 +1,32 @@
+.resource_boxes {
+    width: 100%;
+    padding: 3%;
+
+    @media (max-width: 480px){
+        padding: unset;
+    }
+
+    .boxes_wrapper {
+        border-radius: 50px;
+        background: #f4f4f4;
+        padding: 8% 0;
+
+        .row {
+            padding-bottom: 30px;
+        }
+
+        .res_box {
+            border: 1px solid #c0c0c0;
+            border-radius: 22px;
+            padding: 40px 50px 40px 40px;
+
+            @media (max-width: 480px){
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

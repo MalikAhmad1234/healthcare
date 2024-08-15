@@ -1,0 +1,45 @@
+.dropdown-content{    
+    p, h4, h5, h6{
+        color: black;
+    }
+    p.box1-p{
+        color: white;
+    }
+    p.box2-p{
+        font-size: 15px;
+    }
+    p.box3-p{
+        font-size: 10px;
+    }
+    h6.box3-h6{
+        color: black;
+        font-weight: normal;
+        font-size: 21px;
+    }
+    .menu_anchor {
+        text-decoration: unset;
+    }
+    .dropdown-btn:hover .dropdown-nursing{
+        display: block;
+        position: absolute; /* Position the dropdown relative to the .nav-link */
+        top: 85%; /* Position it below the .nav-link */
+        left: 490px; /* Align it with the left edge of the .nav-link */
+        z-index: 999;
+        width: 60%;
+     }
+     .dropdown-btn:hover .dropdown-nursing{
+        display: block;
+     }
+     .dropdown-nursing{
+        display: none
+     }
+     .dropdown-nursing .dropdown-content{
+        background-color: #fff;
+        border-radius: 20px;
+    
+     }
+     .div-span{
+        background-color: transparent;
+     }
+
+}

@@ -1,0 +1,110 @@
+.staffing-sol {
+    background: radial-gradient(farthest-corner at 8% 8%, #4eb3e8 0%, #71ba32 100%);
+    padding: 70px 0px;
+
+    .staffing-sol-container{
+        width: 100%;
+        padding: 0% 3%;
+
+        .empowercare-wrapper {
+            padding: 100px 0;
+            border-radius: 50px;
+            background: #f4f4f4;
+
+            .container {
+
+                .row {
+                    .left-content {
+                        padding-right: 100px;
+
+                        @media (max-width: 850px) {
+                            padding-right: unset;
+                        }
+
+                        .meta {
+                            color: #4EB3E8;
+                        }
+                        h2.heading {
+                            font-size: 41px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #000;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #202020;
+                        }
+
+                        .sec-btns {
+                            position: relative;
+
+                            a.learn-btn {
+                                border: 1px solid;
+                                padding: 15px 25px;
+                                background: linear-gradient(90deg, #4eb3e8 0.00%, #71ba32 100.00%);;
+                                border-radius: 20px;
+                                color: #ffffff;
+                                text-decoration: unset;
+                                position: absolute;
+                                top: 53px;
+                
+                                @media (max-width: 992px) {
+                                    width: max-content;
+                                    height: max-content;
+                                    padding: 15px 20px;
+                                }
+                                @media (max-width: 450px) {
+                                    height: max-content;
+                                    padding: 10px 10px;
+                                    border-radius: 5px;
+                                    height: 48px;
+                                }
+                            }
+                        }
+                    }
+                    .section-img {
+                        @media (max-width: 992px) {
+                            padding-top: 150px;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

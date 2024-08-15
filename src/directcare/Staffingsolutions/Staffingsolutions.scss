@@ -1,0 +1,199 @@
+.staffing-sol-directcare {
+    background: #4eb3e8;
+    padding-block: 70px;
+    background: radial-gradient(farthest-corner at 83% 8%, #4eb3e8 0%, #71ba32 100%);
+
+    .container {
+
+        max-width: 1250px !important;
+        background-color: hsl(0, 0%, 96%);
+        border-radius: 50px;
+
+        .empowercare-wrapper {
+            padding: 40px 55px;
+
+            @media (max-width: 1200px) {
+                padding: 10px 0 120px;
+            }
+            @media (max-width: 992px) {
+                padding: 10px 0 80px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 10px 0 60px;
+            }
+
+            .row {
+                h2.heading {
+                    font-size: 49px;
+                    font-weight: normal;
+                    line-height: 51px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #000;
+                    margin-bottom: 20px;
+
+                    @media (max-width: 992px) {
+                        font-size: 40px;
+                    }
+                    @media (max-width: 767.5px) {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    @media (max-width: 575px) {
+                        font-size: 30px;
+                        margin-bottom: 15px;
+                        line-height: 35px;
+                    }
+
+                    span {
+                        background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                }
+
+                p.description {
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #202020;
+                }
+
+                button.learnmore-btn {
+                    border-color: #000000;
+                    border-width: 2px;
+                    border-style: solid;
+                    background-color: transparent;
+    
+                    width: 196px;
+                    height: 66px;
+                    border-radius: 19px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    @media (max-width: 992px) {
+                        width: max-content;
+                        height: max-content;
+                        padding: 15px 20px;
+                    }
+                    @media (max-width: 450px) {
+                        height: max-content;
+                        padding: 10px 10px;
+                        border-radius: 5px;
+                        height: 48px;
+                    }
+    
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-style: normal;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+            }
+            .row {
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                    gap: 20px;
+                }
+            }
+
+        }
+
+        .flex {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            gap: 100px;
+
+            @media (max-width: 767.5px){
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .section-img img {
+                height: 370px !important;
+            }
+
+            .left-content {
+                width: 60% !important;
+
+                @media (max-width: 767.5px){
+                    width: 95% !important;
+                }
+            }
+
+            span.meta {
+                font-size: 20px;
+                font-weight: bold;
+                font-style: normal;
+                text-align: left;
+                color: #4EB3E8;
+                margin-bottom: 7px;
+            }
+
+            h2.heading {
+                font-size: 49px;
+                font-weight: normal;
+                line-height: 51px;
+                font-style: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 20px;
+
+                @media (max-width: 767.5px){
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+
+                span{
+                    background: linear-gradient(90deg, #71ba32 0.00%, #4eb3e8 100.00%);
+                    // background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-transform: uppercase;
+                    font-weight: bold;                }
+            }
+
+            button {
+                width: 200px;
+                border-radius: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                background: #71ba32;
+                background: linear-gradient(-130deg, #4eb3e8 0.00%, #71ba32 100.00%);
+                position: relative;
+                border: none;
+                margin-top: 60px;
+                padding: 15px 20px;
+
+                span{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-style: normal;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                img {
+                    position: absolute;
+                    top: 18px;
+                    right: 10px;
+                    height: 18px;
+                    width: 18px;
+                }
+            }
+        }
+    }
+}
